@@ -39,4 +39,9 @@
   </div>
 </body>
 <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/2.5.3/less.min.js"></script>
+<script>
+  window.onresize = function () {
+    document.getElementsByTagName('html')[0].style.fontSize =  window.innerWidth / 750 * 100
+  }
+</script>
 </html>
